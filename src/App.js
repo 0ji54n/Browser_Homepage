@@ -53,7 +53,7 @@ function App() {
         }}>
         <Flex marginTop="10" justifyContent="center">
           <Box w={{
-            sm:"100%",
+            sm:"80%",
             xl:"50%"
           }} shadow="dark-lg" bgColor="gray.600" borderRadius={12}>
             <SimpleGrid columns={5}>
