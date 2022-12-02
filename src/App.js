@@ -55,7 +55,7 @@ function App() {
           <Box w={{
             sm:"100%",
             xl:"50%"
-          }} shadow="dark-lg" bgColor="gray.800" borderRadius={12}>
+          }} shadow="dark-lg" bgColor="gray.600" borderRadius={12}>
             <SimpleGrid columns={5}>
               <IconButton color="blue.400" margin="10" icon={<FaTwitter />} variant="link"  onClick={()=>{
                 window.open("https://twitter.com/home")
