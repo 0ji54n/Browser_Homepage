@@ -57,19 +57,19 @@ function App() {
             xl:"50%"
           }} shadow="dark-lg" bgColor="gray.600" borderRadius={12}>
             <SimpleGrid columns={5}>
-              <IconButton color="blue.400" margin="10" icon={<FaTwitter />} variant="link"  onClick={()=>{
+              <IconButton color="blue.400" margin="5" icon={<FaTwitter />} variant="link"  onClick={()=>{
                 window.open("https://twitter.com/home")
               }}/>
-              <IconButton color="blue.600" margin="10" icon={<FaFacebook shadow="dark-lg"/>} variant="link" onClick={()=>{
+              <IconButton color="blue.600" margin="5" icon={<FaFacebook shadow="dark-lg"/>} variant="link" onClick={()=>{
                 window.open("https://facebook.com")
               }}/>
-              <IconButton color="red.500" margin="10" icon={<FaYoutube shadow="dark-lg"/>} variant="link" onClick={()=>{
+              <IconButton color="red.500" margin="5" icon={<FaYoutube shadow="dark-lg"/>} variant="link" onClick={()=>{
                 window.open("https://youtube.com")
               }}/>
-              <IconButton color="red.600" margin="10" icon={<FaPinterest shadow="dark-lg"/>} variant="link" onClick={()=>{
+              <IconButton color="red.600" margin="5" icon={<FaPinterest shadow="dark-lg"/>} variant="link" onClick={()=>{
                 window.open("https://pinterest.jp")
               }}/>
-              <IconButton color="gray.500" margin="10" icon={<FaGithub shadow="dark-lg"/>} variant="link" onClick={()=>{
+              <IconButton color="gray.500" margin="5" icon={<FaGithub shadow="dark-lg"/>} variant="link" onClick={()=>{
                 window.open("https://github.com")
               }}/>
             </SimpleGrid>
