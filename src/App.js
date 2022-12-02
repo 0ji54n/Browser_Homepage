@@ -1,7 +1,6 @@
 import React from 'react';
 import {
   ChakraProvider,
-  theme,
   Box,
   Flex,
   Text,
@@ -16,6 +15,7 @@ import {FaFacebook} from "react-icons/fa";
 import {FaYoutube} from "react-icons/fa";
 import {FaPinterest} from "react-icons/fa";
 import {FaGithub} from "react-icons/fa"; 
+import theme from './background';
 import { motion, isValidMotionProp } from "framer-motion";
 const ChakraBox = chakra(motion.div, {
   shouldForwardProp: (prop) => isValidMotionProp(prop) || shouldForwardProp(prop),
