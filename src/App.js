@@ -55,7 +55,7 @@ function App() {
           <Box w={{
             sm:"80%",
             xl:"50%"
-          }} shadow="dark-lg" bgColor="gray.600" borderRadius={12}>
+          }} bgColor="gray.500" borderRadius={12}>
             <SimpleGrid columns={5}>
               <IconButton color="blue.400" margin="5" icon={<FaTwitter />} variant="link"  onClick={()=>{
                 window.open("https://twitter.com/home")
@@ -69,7 +69,7 @@ function App() {
               <IconButton color="red.600" margin="5" icon={<FaPinterest shadow="dark-lg"/>} variant="link" onClick={()=>{
                 window.open("https://pinterest.jp")
               }}/>
-              <IconButton color="gray.500" margin="5" icon={<FaGithub shadow="dark-lg"/>} variant="link" onClick={()=>{
+              <IconButton color="gray.200" margin="5" icon={<FaGithub shadow="dark-lg"/>} variant="link" onClick={()=>{
                 window.open("https://github.com")
               }}/>
             </SimpleGrid>
